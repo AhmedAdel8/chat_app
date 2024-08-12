@@ -1,9 +1,9 @@
-// ignore_for_file: depend_on_referenced_packages
+// ignore_for_file: depend_on_referenced_packages, deprecated_member_use
 
 import 'package:chat_app/firebase_options.dart';
 import 'package:chat_app/screens/Login_Screen.dart';
 import 'package:chat_app/screens/Register_Screen.dart';
-import 'package:chat_app/screens/blocs/auth_bloc/auth_bloc.dart';
+import 'package:chat_app/screens/blocs/bloc/auth_bloc.dart';
 import 'package:chat_app/screens/chat_screen.dart';
 import 'package:chat_app/screens/cubits/auth_cubit/auth_cubit.dart';
 import 'package:chat_app/screens/cubits/cubit_chat/chat_cubit.dart';
